@@ -2,11 +2,6 @@ use serde::Deserialize;
 use serde;
 
 #[derive(Deserialize, Debug)]
-pub struct Object {
-
-}
-
-#[derive(Deserialize, Debug)]
 pub struct TileLayer {
     pub x: i32,
     pub y: i32,
