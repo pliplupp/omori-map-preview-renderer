@@ -27,7 +27,7 @@ jobs:
           name: omori-map-preview-renderer-windows-master.exe
           path: target/release/renderifier.exe
   build-macos:
-    name: cargo build
+    name: cargo build macos
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
